@@ -1,7 +1,7 @@
 provider "azurerm" {
    features {}
 }
-
+#some comment
 
 resource "azurerm_resource_group" "myterraformgroup" {
   name     = "${var.resourcegroup}"
